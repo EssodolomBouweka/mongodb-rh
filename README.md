@@ -4,7 +4,7 @@
 **Projet de fin de module** – Bases de Données NoSQL  
 **Thème :** Conception d’un système RH complet avec MongoDB  
 **Langage :** Python (PyMongo)  
-**Binôme :** Essodolom BOUWEKA & Et DJONSOHN Daniel
+**Binôme :** Essodolom BOUWEKA & Et Johnson Daniel
 
 ---
 
@@ -23,35 +23,33 @@ Il répond aux exigences du module de base de données NoSQL avec :
 ---
 
 ##  Architecture du projet
+Le projet est structuré de manière modulaire pour faciliter la maintenance et l'évolution. Voici l'architecture du projet :
 
-Le projet est structuré comme suit :
-
+```
 Projet_MongoDB_RH/
-├── data/ # Données JSON
-│ ├── employes.json
-│ ├── postes.json
-│ └── departements.json
-│
-├── scripts/ # Scripts techniques
-│ ├── insert_data.py # Insertion des données
-│ └── create_user.py # Création d'un utilisateur MongoDB
-│
-├── queries/ # Requêtes MongoDB
-│ ├── crud_queries.py
-│ ├── advanced_queries.py
-│ └── aggregation_queries.py
-│
-├── main.py # Interface console du système RH
-├── .env # Configuration MongoDB (locale ou Atlas)
-├── .gitignore # Fichier d'exclusion Git
-├── requirements.txt # Dépendances Python
-└── README.md # Ce fichier
+  data/
+    employes.json
+    postes.json
+    departements.json
+  scripts/
+    insert_data.py
+    create_user.py
+  queries/
+    crud_queries.py
+    advanced_queries.py
+    aggregation_queries.py
+  main.py
+  .env
+  .gitignore
+  requirements.txt
+  README.md
+
 
 
 
 ## Installation et exécution
 1. Cloner le dépôt  
-git clone https://github.com/votre-utilisateur/projet-mongodb-rh.git
+git clone https://github.com/EssodolomBouweka/mongodb-rh.git
 cd projet-mongodb-rh
 
 

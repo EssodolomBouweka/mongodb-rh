@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
-
+from utils.db_connection import db
 load_dotenv()
 admin = MongoClient(os.getenv("MONGO_URI"))
 db = admin[os.getenv("DB_NAME")]
