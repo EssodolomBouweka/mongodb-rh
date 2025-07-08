@@ -1,0 +1,37 @@
+// collection departements 
+{
+  "_id": ObjectId("..."),
+  "nom": "Informatique",
+  "description": "Gère les systèmes et le support IT",
+  "chef_dept": {
+    "nom": "Afi Kossi",
+    "email": "afi.kossi@entreprise.tg"
+  }
+}
+
+// collection postes
+
+{
+  "_id": ObjectId("..."),
+  "intitule": "Développeur Full Stack",
+  "salaire_min": 500000,
+  "salaire_max": 900000,
+  "description": "Conçoit et développe des applications web"
+}
+
+// employes
+
+{
+  "_id": ObjectId("..."),
+  "nom": "Essodolom Bouweka",
+  "email": "essodolom.bouweka@entreprise.tg",
+  "date_embauche": "2022-03-15",
+  "poste_id": ObjectId("..."),
+  "departement_id": ObjectId("..."),
+  "competences": ["Python", "MongoDB", "Power BI"],
+  "contrat": {
+    "type": "CDI",
+    "salaire": 800000,
+    "date_debut": "2022-03-15"
+  }
+}

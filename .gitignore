@@ -1,0 +1,34 @@
+# Environnement virtuel 
+venv/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints 
+.ipynb_checkpoints
+
+# Données générées localement 
+*.json
+!data/*.json
+
+# Fichiers systèmes (Windows, macOS)
+.DS_Store
+Thumbs.db
+
+# Logs ou dumps
+*.log
+
+# Dossiers de test ou temporaires
+tmp/
+tests/
+
+# Archivage
+*.zip
+
+# VS Code settings 
+.vscode/
