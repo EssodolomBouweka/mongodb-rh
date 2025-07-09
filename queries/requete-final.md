@@ -138,3 +138,40 @@ Projet_MongoDB_RH/
 - **Date limite :** 09 juillet 2025 à 23h59  
 - **À envoyer par mail :** avosse28@gmail.com (fichier PDF)  
 - **Code source :** GitHub ou GitLab (accès via lien ou invitation)
+
+
+
+departement
+//  Embedding ✅
+//Pourquoi ?
+// Le champ chef_dept contient un sous-document (nom, email) directement imbriqué dans le document departement.
+
+//on n’a pas utilises pas d’identifiant (ObjectId) de référence pointant vers une autre collection, ce qui serait le cas avec le referencing.
+
+// En résumé :
+// Approche	Type	Justification
+// Embedding	✅ Utilisé ici	On intègre directement les infos du chef dans le document departement.
+
+// Pourquoi ce choix est pertinent ici ?
+// Les données du chef de département sont faiblement réutilisables ailleurs.
+
+// Elles sont intrinsèquement liées au département (le chef est propre à un seul département).
+
+// Pas besoin de faire des jointures coûteuses avec $lookup.
+
+
+
+postes
+// Referencing 
+// Pourquoi ?
+// Les champs poste_id et departement_id contiennent des identifiants UUID (ou ObjectId) pointant vers d'autres collections : postes, departements
+
+//Ces identifiants ne sont pas des sous-documents, donc les données du poste ou du département ne sont pas directement incluses dans le document employé.
+
+// Raisons pour lesquelles le referencing est pertinent ici :
+
+// Réutilisabilité	Plusieurs employés peuvent partager le même poste ou département.
+// Évite la duplication	Pas besoin de répéter les mêmes infos de poste ou de service dans chaque employé.
+// Requêtes combinées	Tu peux facilement faire un $lookup pour récupérer les données liées.
+
+

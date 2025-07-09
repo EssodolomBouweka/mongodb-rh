@@ -1,15 +1,11 @@
 [
   {
-    "nom": "Adélaïde du Pasquier",
+    "nom": "Kodjo Fofana",
     "email": "dianeetienne@toussaint.fr",
     "date_embauche": "2023-12-13",
     "poste_id": "4603546a-4b56-4b89-97d4-3278d74a3150",
     "departement_id": "8ad364d1-659c-484f-9b7d-01034be3f6f8",
-    "competences": [
-      "Excel",
-      "SQL",
-      "Python"
-    ],
+    "competences": ["Excel", "SQL", "Python"],
     "contrat": {
       "type": "CDD",
       "salaire": 710663,
@@ -17,16 +13,12 @@
     }
   },
   {
-    "nom": "Grégoire de la Hervé",
+    "nom": "Ablavi Mensah",
     "email": "briviere@orange.fr",
     "date_embauche": "2020-12-13",
     "poste_id": "059f9e41-3840-4052-9468-3db64b843917",
     "departement_id": "20cea8cc-21e2-40e2-a54e-d05ec46efd4a",
-    "competences": [
-      "Power BI",
-      "MongoDB",
-      "Docker"
-    ],
+    "competences": ["Power BI", "MongoDB", "Docker"],
     "contrat": {
       "type": "Stage",
       "salaire": 831741,
@@ -34,16 +26,12 @@
     }
   },
   {
-    "nom": "Robert Garcia du Morin",
+    "nom": "Yawovi Kouassi",
     "email": "pintogeorges@didier.org",
     "date_embauche": "2021-11-10",
     "poste_id": "cf7c4925-1c57-43e4-a6df-288693783b13",
     "departement_id": "fd7fa6c5-0025-412e-820e-d9a909994105",
-    "competences": [
-      "SQL",
-      "Node.js",
-      "Comptabilité"
-    ],
+    "competences": ["SQL", "Node.js", "Comptabilité"],
     "contrat": {
       "type": "CDI",
       "salaire": 928856,
@@ -51,16 +39,12 @@
     }
   },
   {
-    "nom": "Sylvie Berger",
+    "nom": "Akouvi Ayayi",
     "email": "aliceaubert@wanadoo.fr",
     "date_embauche": "2024-01-17",
     "poste_id": "88f09303-a7e2-46f1-a666-b8367f20d937",
     "departement_id": "322d4f6f-b64c-4bcf-a5f3-9346d620efcf",
-    "competences": [
-      "Python",
-      "Comptabilité",
-      "SQL"
-    ],
+    "competences": ["Python", "Comptabilité", "SQL"],
     "contrat": {
       "type": "Stage",
       "salaire": 422933,
@@ -68,33 +52,26 @@
     }
   },
   {
-    "nom": "Guillaume Leleu",
+    "nom": "Komlan Agboyibo",
     "email": "simone84@voila.fr",
     "date_embauche": "2021-09-03",
     "poste_id": "13488bf9-7571-4021-8a67-468e0137d277",
     "departement_id": "8ad364d1-659c-484f-9b7d-01034be3f6f8",
-    "competences": [
-      "MongoDB",
-      "Docker",
-      "SQL"
-    ],
+    "competences": ["MongoDB", "Docker", "SQL"],
     "contrat": {
       "type": "CDI",
       "salaire": 594098,
       "date_debut": "2021-09-03"
     }
   },
+  
   {
-    "nom": "Théodore Delorme du Gérard",
+    "nom": "Mawuli Loko",
     "email": "vbarre@ifrance.com",
     "date_embauche": "2022-12-01",
     "poste_id": "4f848652-7076-420d-9d49-dbdc332a1e01",
     "departement_id": "2c35abb3-a4ed-488d-b315-351387bc3ddf",
-    "competences": [
-      "RH",
-      "Node.js",
-      "Power BI"
-    ],
+    "competences": ["RH", "Node.js", "Power BI"],
     "contrat": {
       "type": "CDD",
       "salaire": 732554,
@@ -102,16 +79,12 @@
     }
   },
   {
-    "nom": "Élisabeth Rocher",
+    "nom": "Sika Dosseh",
     "email": "xrey@bertrand.fr",
     "date_embauche": "2024-05-20",
     "poste_id": "13488bf9-7571-4021-8a67-468e0137d277",
     "departement_id": "6e9305da-3101-4934-9d2c-02d05c969783",
-    "competences": [
-      "MongoDB",
-      "RH",
-      "Comptabilité"
-    ],
+    "competences": ["MongoDB", "RH", "Comptabilité"],
     "contrat": {
       "type": "CDI",
       "salaire": 629946,
@@ -119,16 +92,12 @@
     }
   },
   {
-    "nom": "Nathalie Dupré",
+    "nom": "Kodjo Teko",
     "email": "ida-silva@roussel.fr",
     "date_embauche": "2024-07-14",
     "poste_id": "cf7c4925-1c57-43e4-a6df-288693783b13",
     "departement_id": "bfb0968a-47c9-479c-872b-ef2dcd4e1ba3",
-    "competences": [
-      "Docker",
-      "SQL",
-      "Comptabilité"
-    ],
+    "competences": ["Docker", "SQL", "Comptabilité"],
     "contrat": {
       "type": "CDI",
       "salaire": 834714,
@@ -136,16 +105,12 @@
     }
   },
   {
-    "nom": "Susanne de Mace",
+    "nom": "Abla Mabou",
     "email": "jbegue@lelievre.fr",
     "date_embauche": "2021-05-11",
     "poste_id": "a4df31f4-79e7-4357-9696-ad15264ce46c",
     "departement_id": "2beb3eec-6354-4466-992c-ac581feb30b8",
-    "competences": [
-      "Python",
-      "Comptabilité",
-      "Excel"
-    ],
+    "competences": ["Python", "Comptabilité", "Excel"],
     "contrat": {
       "type": "Stage",
       "salaire": 690035,
@@ -153,16 +118,12 @@
     }
   },
   {
-    "nom": "Jacques Parent",
+    "nom": "Afi Agbenyo",
     "email": "lorraine78@gmail.com",
     "date_embauche": "2023-11-22",
     "poste_id": "a4df31f4-79e7-4357-9696-ad15264ce46c",
     "departement_id": "9ee1591c-8fd9-46fa-b9d8-45efff91de83",
-    "competences": [
-      "SQL",
-      "MongoDB",
-      "Comptabilité"
-    ],
+    "competences": ["SQL", "MongoDB", "Comptabilité"],
     "contrat": {
       "type": "CDD",
       "salaire": 770651,
@@ -170,16 +131,12 @@
     }
   },
   {
-    "nom": "Thomas Pottier-Hervé",
+    "nom": "Komlan Ayayi",
     "email": "gayeugene@hebert.org",
     "date_embauche": "2021-02-03",
     "poste_id": "6a09d1f4-0f52-412d-b044-cd6ec19528f3",
     "departement_id": "31908fa6-f41e-40ea-bd2c-a3864093d54f",
-    "competences": [
-      "Comptabilité",
-      "Linux",
-      "Docker"
-    ],
+    "competences": ["Comptabilité", "Linux", "Docker"],
     "contrat": {
       "type": "Stage",
       "salaire": 679963,
@@ -187,16 +144,12 @@
     }
   },
   {
-    "nom": "Isaac Lefèvre",
+    "nom": "Akouvi Agbeko",
     "email": "alix62@orange.fr",
     "date_embauche": "2020-10-03",
     "poste_id": "0b72277b-0694-4f07-8952-e5f398b4c0ef",
     "departement_id": "31908fa6-f41e-40ea-bd2c-a3864093d54f",
-    "competences": [
-      "RH",
-      "SQL",
-      "Excel"
-    ],
+    "competences": ["RH", "SQL", "Excel"],
     "contrat": {
       "type": "Stage",
       "salaire": 831141,
@@ -204,16 +157,12 @@
     }
   },
   {
-    "nom": "Édith Picard",
+    "nom": "Ekoué Kpotufe",
     "email": "bourdonalex@mahe.net",
     "date_embauche": "2025-01-11",
     "poste_id": "88f09303-a7e2-46f1-a666-b8367f20d937",
     "departement_id": "20cea8cc-21e2-40e2-a54e-d05ec46efd4a",
-    "competences": [
-      "Power BI",
-      "SQL",
-      "Docker"
-    ],
+    "competences": ["Power BI", "SQL", "Docker"],
     "contrat": {
       "type": "CDI",
       "salaire": 938637,
@@ -221,16 +170,12 @@
     }
   },
   {
-    "nom": "Michel-Gilbert Martineau",
+    "nom": "Mawuena Assiongbon",
     "email": "rherve@legrand.org",
     "date_embauche": "2024-06-07",
     "poste_id": "c36b3abc-cd75-44d4-9f58-5e4614345e6a",
     "departement_id": "2c35abb3-a4ed-488d-b315-351387bc3ddf",
-    "competences": [
-      "Node.js",
-      "Comptabilité",
-      "RH"
-    ],
+    "competences": ["Node.js", "Comptabilité", "RH"],
     "contrat": {
       "type": "Stage",
       "salaire": 768801,
@@ -238,16 +183,12 @@
     }
   },
   {
-    "nom": "Michel-Henri Philippe",
+    "nom": "Dédé Agboyibo",
     "email": "pgautier@ifrance.com",
     "date_embauche": "2024-02-14",
     "poste_id": "88f09303-a7e2-46f1-a666-b8367f20d937",
     "departement_id": "fd7fa6c5-0025-412e-820e-d9a909994105",
-    "competences": [
-      "MongoDB",
-      "Python",
-      "Excel"
-    ],
+    "competences": ["MongoDB", "Python", "Excel"],
     "contrat": {
       "type": "Stage",
       "salaire": 867488,
@@ -255,16 +196,12 @@
     }
   },
   {
-    "nom": "Lucie Bonnin",
+    "nom": "Togbui Yovo",
     "email": "delmasanastasie@bouygtel.fr",
     "date_embauche": "2025-05-17",
     "poste_id": "4457d7de-e5f0-492b-9975-4689c83badcc",
     "departement_id": "322d4f6f-b64c-4bcf-a5f3-9346d620efcf",
-    "competences": [
-      "Docker",
-      "MongoDB",
-      "Excel"
-    ],
+    "competences": ["Docker", "MongoDB", "Excel"],
     "contrat": {
       "type": "CDI",
       "salaire": 517753,
@@ -272,16 +209,12 @@
     }
   },
   {
-    "nom": "Anaïs-Zoé Renault",
+    "nom": "Yaovi Tchalla",
     "email": "matthieu39@potier.com",
     "date_embauche": "2020-07-31",
     "poste_id": "ea2bc0ee-1135-47e7-9deb-eda76a793f71",
     "departement_id": "2ceec383-35b0-41ee-8793-9b0a8369d455",
-    "competences": [
-      "Power BI",
-      "SQL",
-      "Python"
-    ],
+    "competences": ["Power BI", "SQL", "Python"],
     "contrat": {
       "type": "CDD",
       "salaire": 840785,
@@ -289,16 +222,12 @@
     }
   },
   {
-    "nom": "Honoré Besnard",
+    "nom": "Abla Agboyibo",
     "email": "nath21@millet.fr",
     "date_embauche": "2021-05-03",
     "poste_id": "059f9e41-3840-4052-9468-3db64b843917",
     "departement_id": "18a37694-0b74-4471-8563-a413fe4151d1",
-    "competences": [
-      "Power BI",
-      "SQL",
-      "Node.js"
-    ],
+    "competences": ["Power BI", "SQL", "Node.js"],
     "contrat": {
       "type": "Stage",
       "salaire": 470116,
@@ -306,16 +235,12 @@
     }
   },
   {
-    "nom": "Christophe Le Laporte",
+    "nom": "Mawuena Benyekou",
     "email": "pierreleduc@club-internet.fr",
     "date_embauche": "2022-01-02",
     "poste_id": "059f9e41-3840-4052-9468-3db64b843917",
     "departement_id": "bfb0968a-47c9-479c-872b-ef2dcd4e1ba3",
-    "competences": [
-      "Docker",
-      "RH",
-      "Linux"
-    ],
+    "competences": ["Docker", "RH", "Linux"],
     "contrat": {
       "type": "CDI",
       "salaire": 657757,
@@ -323,20 +248,19 @@
     }
   },
   {
-    "nom": "Nicolas Sanchez",
+    "nom": "Essè Amah",
     "email": "margaretramos@pascal.fr",
     "date_embauche": "2023-05-24",
     "poste_id": "d571830f-405c-4634-8887-4d86b2e5b849",
     "departement_id": "589652bc-55f6-4098-89c2-c3d86850fe51",
-    "competences": [
-      "Power BI",
-      "RH",
-      "MongoDB"
-    ],
+    "competences": ["Power BI", "RH", "MongoDB"],
     "contrat": {
       "type": "CDI",
       "salaire": 626183,
       "date_debut": "2023-05-24"
     }
   }
+
+
 ]
+
