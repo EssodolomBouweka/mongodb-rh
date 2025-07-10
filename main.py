@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 import csv
-from utils.db_connection import db
+
 
 load_dotenv()
 
