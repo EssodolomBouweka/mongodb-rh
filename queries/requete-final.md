@@ -124,7 +124,7 @@ Projet_MongoDB_RH/
 
 ---
 
-## ✅ Résultat final
+##  Résultat final
 
 - 3 collections liées avec des données réalistes
 - 20 requêtes documentées
@@ -133,11 +133,6 @@ Projet_MongoDB_RH/
 
 ---
 
-## 📅 Remise
-
-- **Date limite :** 09 juillet 2025 à 23h59  
-- **À envoyer par mail :** avosse28@gmail.com (fichier PDF)  
-- **Code source :** GitHub ou GitLab (accès via lien ou invitation)
 
 
 

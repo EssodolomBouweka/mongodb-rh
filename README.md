@@ -1,82 +1,155 @@
 
 # Projet MongoDB RH – Master Big Data & IA
 
-**Projet de fin de module** – Bases de Données NoSQL  
-**Thème :** Conception d’un système RH complet avec MongoDB  
-**Langage :** Python (PyMongo)  
-**Binôme :** Essodolom BOUWEKA & Et Johnson Daniel
+## Contexte
+
+Ce projet est réalisé dans le cadre du **projet de fin de module** du cours **Bases de Données NoSQL**.  
+Il s'agit de concevoir et d'exploiter un **système d'information RH complet** basé sur **MongoDB**, en utilisant **PyMongo**.
 
 ---
 
-## 🎯 Objectif
+## Réalisé par
 
-Ce projet a pour but de concevoir et exploiter un **système d'information RH** complet avec **MongoDB** en utilisant le pilote **PyMongo**.  
-Il répond aux exigences du module de base de données NoSQL avec :
-
-- 3 collections relationnelles (employés, postes, départements)
-- Embedding et referencing
-- Jeu de données réaliste (20+ documents/collection)
-- 20 requêtes documentées
-- Utilisation de MongoDB Atlas (bonus)
-- Gestion des accès utilisateurs (sécurité)
+- **Essodolom BOUWEKA**
+- **Johnson Daniel**
 
 ---
 
-##  Architecture du projet
-Le projet est structuré de manière modulaire pour faciliter la maintenance et l'évolution. Voici l'architecture du projet :
+## Objectifs pédagogiques
+
+- Modéliser un système RH dans un environnement NoSQL
+- Manipuler **3 collections** relationnelles :
+  - `employes`
+  - `postes`
+  - `departements`
+- Utiliser :
+  - Le **data embedding**
+  - Le **referencing** (`ObjectId`)
+- Générer un **jeu de données réaliste** (+20 documents/collection)
+- Implémenter au moins **20 requêtes** :
+  - CRUD
+  - Agrégations
+  - Statistiques avancées
+- (Bonus) Connexion via **MongoDB Atlas**
+- (Bonus) **Gestion des utilisateurs MongoDB** via script sécurisé
+
+---
+
+## Architecture du projet
 
 ```
 Projet_MongoDB_RH/
-  data/
-    employes.json
-    postes.json
-    departements.json
-  scripts/
-    insert_data.py
-    create_user.py
-  queries/
-    crud_queries.py
-    advanced_queries.py
-    aggregation_queries.py
-  main.py
-  .env
-  .gitignore
-  requirements.txt
-  README.md
-
-
-
+│
+├── data/                    # Données JSON à importer
+│   ├── employes.json
+│   ├── postes.json
+│   └── departements.json
+│
+├── scripts/                 # Scripts d'administration
+│   ├── insert_data.py       → Injection des données
+│   └── create_user.py       → Création d’un utilisateur MongoDB
+│
+├── queries/                 # Requêtes principales
+│   ├── crud_queries.py      → Insert, update, delete, find
+│   ├── advanced_queries.py  → Recherches avancées
+│   └── aggregation_queries.py → Statistiques & agrégations
+│
+├── main.py                  # Script principal (optionnel)
+├── .env                     # Configuration MongoDB
+├── .gitignore
+├── requirements.txt         # Dépendances Python
+└── README.md                # fichier de documentation du projet
+```
+Le dossier modelisation contient la modelisation de la base de données et un descriptif des choix de referencing ou de l'embedding 
+---
 
 ## Installation et exécution
-1. Cloner le dépôt  
+
+### 1. Cloner le dépôt
+
+```bash
 git clone https://github.com/EssodolomBouweka/mongodb-rh.git
-cd projet-mongodb-rh
+cd mongodb-rh
+```
 
+### 2. Créer un environnement virtuel (optionnel mais recommandé)
 
-2. Créer un environnement virtuel (optionnel)
+```bash
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
+# Linux / macOS :
+source venv/bin/activate
+# Windows :
+venv\Scripts\activate
+```
 
+### 3. Installer les dépendances
 
-3. Installer les dépendances
+```bash
 pip install -r requirements.txt
+```
 
-4. Créer l'utilisateur MongoDB (optionnel)
-python scripts/create_user.py
+### 4. Configurer la connexion MongoDB
 
-5. configure l'environnement MongoDB dans `.env` :
-```MONGO_URI=mongodb://localhost:27017
+Créez un fichier `.env` à la racine avec le contenu suivant :
+
+```
+MONGO_URI=mongodb://localhost:27017
 DB_NAME=entreprise_rh
+```
 
-6. insert les données
+Si vous utilisez MongoDB Atlas, remplacez l’URI en conséquence.
+
+---
+
+## Utilisation
+
+### 5. Créer un utilisateur MongoDB (optionnel)
+
+```bash
+python scripts/create_user.py
+```
+
+### 6. Insérer les données dans la base
+
+```bash
 python scripts/insert_data.py
+```
 
+### 7. Lancer les requêtes
 
-7. Exécuter les requêtes
+```bash
+# Requêtes CRUD de base
 python queries/crud_queries.py
 
+# Requêtes avancées
+python queries/advanced_queries.py
 
+# Requêtes d’agrégation
+python queries/aggregation_queries.py
+```
 
+---
 
+##  Requêtes intégrées
 
+Plus de **20 requêtes** sont implémentées, incluant :
+
+- Insertion et mise à jour des employés
+- Filtrage par salaire, poste ou département
+- Comptages, moyennes, regroupements (`$group`)
+- Requêtes avec `$lookup`, `$match`, `$sort`, etc.
+
+---
+
+## Résultats attendus
+
+- Une base RH remplie et structurée
+- Des résultats d’analyse exploitables
+- Une pratique concrète de MongoDB en environnement Python
+
+---
+
+## Licence
+
+Projet académique – Master IA & Big Data  
+Tous droits réservés © 2025
