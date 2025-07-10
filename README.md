@@ -54,7 +54,7 @@ Projet_MongoDB_RH/
 │   ├── advanced_queries.py  → Recherches avancées
 │   └── aggregation_queries.py → Statistiques & agrégations
 │
-├── main.py                  # Script principal (optionnel)
+├── main.py                  # Script principal (optionnel) mais il est utilisable et il marche 
 ├── .env                     # Configuration MongoDB
 ├── .gitignore
 ├── requirements.txt         # Dépendances Python
